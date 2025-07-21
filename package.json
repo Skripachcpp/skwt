@@ -1,0 +1,17 @@
+{
+  "name": "skwt",
+  "version": "1.0.0",
+  "description": "рабочий набор инструментов",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dp": "tsc scripts/dp.mts --skipLibCheck --allowSyntheticDefaultImports --module ESNext --target ESNext --outDir ./dist --moduleResolution node && node dist/dp.mjs",
+    "tsc": "tsc"
+  },
+  "author": "skripach.cpp@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  }
+}
