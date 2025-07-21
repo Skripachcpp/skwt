@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dp": "tsc scripts/dp.mts --skipLibCheck --allowSyntheticDefaultImports --module ESNext --target ESNext --outDir ./dist --moduleResolution node && node dist/dp.mjs",
+    "dp": "node scripts/dp.mjs",
+    "css": "node scripts/css.mjs",
+    "cm": "node scripts/cm.mjs",
+    "//dp": "tsc scripts/dp.mts --skipLibCheck --allowSyntheticDefaultImports --module ESNext --target ESNext --outDir ./dist --moduleResolution node && node dist/dp.mjs",
     "tsc": "tsc"
   },
   "author": "skripach.cpp@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.4.1",
+    "console-log-tree": "^1.2.1",
     "tsc": "^2.0.4",
     "typescript": "^5.8.3"
   }

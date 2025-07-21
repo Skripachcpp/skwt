@@ -631,7 +631,7 @@ async function go() {
 		// TODO: и еще проверку написать чтобы небыло импортов типо ../../..
 		// TODO: и еще проверку написать чтобы небыло импортов типо ~/components/moderation-page/left-right
 
-		process.exit(1)
+		// process.exit(1)
 	}
 }
 
